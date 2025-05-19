@@ -6,7 +6,7 @@ struct ContentView: View {
     @StateObject var vm = ContentViewModel()
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
-    let words = ["words", "here"]
+    let words =  ["Confluence", "MOTD", "Editorial", "Playstore", "Notifications", "Microsoft's teams", "BBC blocks", "Cloud", "PIR", "Miro", "Dock yard", "Testflight", "Accessibility", "BBC sport app", "Screen reader", "News at 10", "BBC sounds app", "Retro", "OKRs", "Sprint review", "Cbeebies", "BBC bitesize", "iOS", "Playtime Island", "Storm", "My Conversation", "Moving forward", "Co-pilot", "Swift UI", "Fix version", "Piano", "BBC news app", "BBC Club", "Sprint", "Ways of working", "Waterfall", "Spike", "iPhone", "World Service", "Tech debt", "Delivery manager", "Samsung", "iPlayer", "Radio 1", "Jen Taylor", "Firebase", "Critical Path", "BBC weather app", "Eastenders", "RAID log", "Dependancies", "Google", "Agile coach", "Strictly", "Tim Davie", "Low hanging fruit", "App store", "Kanban", "Story points", "Foldable's", "Clive Myrie", "Dropbox paper", "Gantt chart", "David Attenborough", "All-hands", "Webcore", "Social media", "Away day", "Stand up", "Sprint planning", "Scrum master", "Jetpack Compose", "Podcast", "LBH", "Agile", "Risks", "Jira Align", "Velocity", "Slack", "Take offline", "Nat Waddie", "Figma", "Bug", "Dock House", "Top Gear", "GitHub", "Refinement", "Airship", "Atos", "Product backlog", "Release", "Circle Back", "Radio 2", "Product operating model", "Scrum", "1-2-1", "ADS", "Scope creep", "Product manager", "Jira cloud", "Eurovision", "BBC Values", "Metrcis"]
 
     var body: some View {
         VStack {
